@@ -1,0 +1,269 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagină-1" id="7bfVYmnysUZs5rPA0CYc">
+    <mxGraphModel dx="802" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="chqPHFP70TpO8MVP81pB-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="DoorLockController" vertex="1">
+          <mxGeometry height="1133.75" width="100" x="364" y="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Door" vertex="1">
+          <mxGeometry height="493.75" width="100" x="540" y="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1133.75" width="20" x="40" y="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="AccessLog" vertex="1">
+          <mxGeometry height="1133.75" width="100" x="720" y="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="selectUser">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="150.21" y="220" />
+            </Array>
+            <mxPoint x="49.99571428571423" y="220" as="sourcePoint" />
+            <mxPoint x="239.71000000000004" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Tenant" vertex="1">
+          <mxGeometry height="493.75" width="100" x="190" y="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Admin" vertex="1">
+          <mxGeometry height="560" width="100" x="189.61" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="chqPHFP70TpO8MVP81pB-8" value="selectUser">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="129.61" y="790" />
+            </Array>
+            <mxPoint x="48.998888888888914" y="790" as="sourcePoint" />
+            <mxPoint x="559.61" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SafeHomeAccess" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="addTenant (new)">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="820" as="sourcePoint" />
+            <mxPoint x="413.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="getAccessLogs">
+          <mxGeometry relative="1" width="80" x="0.046" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="1169" as="sourcePoint" />
+            <mxPoint x="414" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="enterPin (valid)">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="239" y="250" as="sourcePoint" />
+            <mxPoint x="413" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="chqPHFP70TpO8MVP81pB-2" value="doorOpen/Close">
+          <mxGeometry relative="1" width="80" x="0.0405" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="414" y="250" as="sourcePoint" />
+            <mxPoint x="588" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="accessGranted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="480" y="300" />
+            </Array>
+            <mxPoint x="420" y="250" as="sourcePoint" />
+            <mxPoint x="769.5000000000002" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="enterPin (invalid)">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="340" as="sourcePoint" />
+            <mxPoint x="414" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="doorLocked">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="415" y="340" as="sourcePoint" />
+            <mxPoint x="591" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.46;exitY=0.178;exitDx=0;exitDy=0;exitPerimeter=0;" value="accessDenied">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="481" y="390" />
+            </Array>
+            <mxPoint x="411" y="340" as="sourcePoint" />
+            <mxPoint x="770.5000000000002" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="enterPin (invalid) x3">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="445" as="sourcePoint" />
+            <mxPoint x="414" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="doorLocked">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="413.5" y="445" as="sourcePoint" />
+            <mxPoint x="589.5" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="insertMasterKey">
+          <mxGeometry relative="1" width="80" x="0.2165" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="360" y="535" />
+            </Array>
+            <mxPoint x="414" y="445" as="sourcePoint" />
+            <mxPoint x="413.5" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="doorOpen">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="414" y="535" as="sourcePoint" />
+            <mxPoint x="590" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="accessGranted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="482.25" y="585" />
+            </Array>
+            <mxPoint x="420" y="535" as="sourcePoint" />
+            <mxPoint x="771.7500000000002" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.46;exitY=0.178;exitDx=0;exitDy=0;exitPerimeter=0;" value="accessDenied">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="480.25" y="495" />
+            </Array>
+            <mxPoint x="410.25" y="445" as="sourcePoint" />
+            <mxPoint x="769.7500000000002" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="invalidPinException">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="380" />
+            </Array>
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="238.9973684210526" y="380.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="tooManyAttemptsException">
+          <mxGeometry relative="1" width="80" x="0.265" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="363.0026315789474" y="485" />
+              <mxPoint x="310" y="485" />
+            </Array>
+            <mxPoint x="413.0026315789474" y="445" as="sourcePoint" />
+            <mxPoint x="242" y="485.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="chqPHFP70TpO8MVP81pB-4" value="OperationCompleted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="413.5" y="820" as="sourcePoint" />
+            <mxPoint x="587" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="addTenant (already exists)">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="870" as="sourcePoint" />
+            <mxPoint x="413.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="OperationNotCompleted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="414" y="870" as="sourcePoint" />
+            <mxPoint x="770.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="TenantAlreadyExistsException">
+          <mxGeometry relative="1" width="80" x="0.2233" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="363.5" y="915.8" />
+            </Array>
+            <mxPoint x="410" y="870" as="sourcePoint" />
+            <mxPoint x="243.0039393939394" y="915.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="removeTenant (found)">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="1020" as="sourcePoint" />
+            <mxPoint x="413.5" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="OperationCompleted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="413.5" y="1020" as="sourcePoint" />
+            <mxPoint x="770" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="removeTenant (not found)">
+          <mxGeometry relative="1" width="80" x="-0.0778" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="240" y="1070" as="sourcePoint" />
+            <mxPoint x="413.5" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="OperationNotCompleted">
+          <mxGeometry relative="1" width="80" x="0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="414" y="1070" as="sourcePoint" />
+            <mxPoint x="770.5" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="TenantNotFoundException">
+          <mxGeometry relative="1" width="80" x="0.2233" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="363.5" y="1115.8" />
+            </Array>
+            <mxPoint x="410" y="1070" as="sourcePoint" />
+            <mxPoint x="243.0039393939394" y="1115.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="chqPHFP70TpO8MVP81pB-4" value="getAccessLogs">
+          <mxGeometry relative="1" width="80" x="0.046" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="413.5" y="1169" as="sourcePoint" />
+            <mxPoint x="587.5" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chqPHFP70TpO8MVP81pB-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="viewAccessLogs">
+          <mxGeometry relative="1" width="80" x="0.046" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="610" y="1220" />
+              <mxPoint x="340" y="1220" />
+            </Array>
+            <mxPoint x="770" y="1170" as="sourcePoint" />
+            <mxPoint x="240" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
